@@ -1,0 +1,104 @@
+{
+  "name": "Abdul-Rashid Dasana Abdulai",
+  "title": "Medical Student • AI in Healthcare",
+  "tagline": "Training as a physician. Building like an engineer.",
+  "location": "Havana, Cuba",
+  "email": "blaseeru@email.com",
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "github": "https://github.com/laseeru",
+    "email": "mailto:blaseeru@email.com"
+  },
+  "hero": {
+    "ctaPrimary": "View Projects",
+    "ctaSecondary": "Contact Me",
+    "blurb": "I design and study AI tools for low-resource settings — focusing on adoption, clinician training, and patient trust."
+  },
+  "about": {
+    "short": "Final-year medical student with a computer engineering background, researching and prototyping AI tools for low-resource healthcare.",
+    "long": "I'm Abdul-Rashid, a final-year medical student passionate about applying AI to real clinical problems. Before medicine, I studied computer engineering at KNUST (two years). In Cuba, I've researched the barriers to implementing AI in healthcare and education — infrastructure, training, workflow, and trust. I prototype lightweight tools such as an exam-prep assistant for Ghanaian medical students. In 2025, I joined the Youth Vision Assembly in Amsterdam to exchange ideas on equitable, safe AI adoption. My goal: help clinicians in low-resource settings work faster and safer with AI, without losing the human connection that patients rely on.",
+    "extended": "My path into healthcare technology began before medical school. As a computer engineering student at KNUST, I was drawn to how complex systems fit together — hardware, software, data. When I transitioned into medicine in Cuba, I brought that mindset into the clinic. On the wards I saw an uncomfortable paradox: committed clinicians and abundant human talent, but limited access to up-to-date tools. That gap motivated my research into the barriers preventing AI adoption in low-resource settings: not only connectivity and compute, but also pedagogy, workflow integration, and public trust. I now focus on two complementary tracks. First, I map what actually blocks adoption — interviewing clinicians, administrators, and students, and turning that into concrete policy and training recommendations. Second, I prototype lightweight tools that could help learners and clinicians today, starting with exam-prep assistants for Ghanaian medical students (GMDC) and early exploration of triage/decision-support concepts. In September 2025, I joined the Youth Vision Assembly in Amsterdam to discuss practical, equitable AI with peers worldwide. A co-delegate's project (Zenaios – Intelligent Healthcare) mirrored many of my goals, and our conversations reinforced how global this effort has become. I'm grateful for mentors like Prof. Fundora, who encouraged me to keep building. Going forward, I'm seeking collaborators, mentors, and programs where I can develop rigorous, patient-safe tools and implementation frameworks that clinicians will actually use — particularly in low-resource hospitals.",
+    "facts": [
+      "Medical student (final year), research focus: AI in low-resource healthcare",
+      "Computer Engineering foundation (KNUST, 2 years)",
+      "Research: barriers to AI adoption in Cuba's healthcare/education systems",
+      "Tools: Python, basic ML workflows, prompt engineering, literature synthesis",
+      "Languages: English; studying/working in Spanish environment",
+      "Mentor shout-out: Prof. Fundora — \"Your intervention was magnificent, and I am proud of you.\""
+    ]
+  },
+  "projects": [
+    {
+      "title": "Barriers to Implementing AI in Low-Resource Healthcare (Cuba)",
+      "summary": "Mixed-methods research into infrastructure, training, workflow, and trust barriers; early curriculum proposals.",
+      "description": "What: Mixed-methods research identifying infrastructure, training, workflow, and trust barriers to AI adoption. Why: Great clinicians, limited tooling — how do we bridge responsibly? How: Interviews, policy/environment scan, literature review; draft curriculum suggestions. Outcome: Policy notes + proposed \"AI in Healthcare\" course outline for faculty consideration.",
+      "stack": ["Qual research", "Python", "Zotero"],
+      "status": "Ongoing synthesis",
+      "links": { "paper": "", "slides": "" }
+    },
+    {
+      "title": "GMDC AI Prep Assistant (Ghana)",
+      "summary": "Lightweight study assistant aligned to GMDC exam with structured drilling and explanations.",
+      "description": "What: Lightweight study assistant for Ghanaian medical students preparing for GMDC exam. Why: Structured drilling + explanations tailored to local syllabus. How: Question bank curation, prompt-chaining prototypes, correctness guardrails. Outcome: Early prototype; next step is small closed pilot with peers.",
+      "stack": ["Python", "LLM prompts", "Web UI"],
+      "status": "Prototype",
+      "links": { "demo": "", "repo": "" }
+    },
+    {
+      "title": "Globin Suite (Exploratory)",
+      "summary": "Early exploration of AI-assisted triage/decision support with conservative, safety-first scope.",
+      "description": "What: Early exploration into AI-assisted triage/decision support (e.g., anemia/malaria red-flags). Why: Faster, safer first-pass triage in resource-constrained clinics. How: Literature mapping + low-risk heuristics; strict \"assist, not replace\" principle. Outcome: Concept notes; seeking clinical partners for validation design.",
+      "stack": ["Python", "Heuristics"],
+      "status": "Concept",
+      "links": { "notes": "" }
+    },
+    {
+      "title": "AI in Cuban Education: Instructor Readiness",
+      "summary": "Survey/interviews on faculty readiness and training needs; draft curriculum modules.",
+      "description": "What: Short study on faculty perceptions and training needs to teach AI responsibly. Why: No adoption without pedagogy; clinicians must learn with context. How: Survey + interview guide; early curriculum outline for first-year modules. Outcome: Draft training roadmap (data ethics, prompts, evaluation).",
+      "stack": ["Surveys", "Qual coding"],
+      "status": "Draft",
+      "links": { "curriculum": "" }
+    }
+  ],
+  "speaking": [
+    {
+      "event": "Youth Vision Assembly 2025",
+      "location": "Amsterdam, NL",
+      "date": "September 2025",
+      "highlights": [
+        "Discussed AI for low-resource healthcare with co-delegates.",
+        "Met the Zenaios – Intelligent Healthcare team; shared implementation lessons."
+      ],
+      "quote": "\"Your intervention was magnificent, and I am proud of you.\" — Prof. Fundora",
+      "media": [""]
+    },
+    {
+      "event": "Jornada Científica (Faculty & Hospital Julio Trigo López)",
+      "location": "Havana, CU",
+      "date": "2025",
+      "highlights": ["Sessions on AI for research and workflow", "Perspective on low-resource constraints"],
+      "media": [""]
+    }
+  ],
+  "writing": [
+    {
+      "title": "The Hidden Barriers to AI in Hospitals Aren't Just Technical",
+      "date": "2025-09-24",
+      "slug": "hidden-barriers-ai-hospitals",
+      "summary": "Why pedagogy, workflow, and trust matter as much as compute.",
+      "contentPath": "writing/hidden-barriers.md"
+    },
+    {
+      "title": "Building an Exam-Prep Assistant for GMDC",
+      "date": "2025-09-24",
+      "slug": "gmdc-exam-assistant",
+      "summary": "Prompting for reasoning, aligning to syllabus, and piloting responsibly.",
+      "contentPath": "writing/gmdc-assistant.md"
+    }
+  ],
+  "contact": {
+    "intro": "Let's collaborate on practical, safe AI for low-resource healthcare.",
+    "success": "Thanks for reaching out — I'll reply soon."
+  }
+}
